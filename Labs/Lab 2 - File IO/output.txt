@@ -1,0 +1,7 @@
+Collin Franklin 
+Computer Science I... 
+
+2003
+A and B have the values 2.5 and 3.7
+The sum is 6.2
+The product is 9.25

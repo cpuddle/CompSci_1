@@ -1,0 +1,4 @@
+The maximum number is: 32640
+The position of the maximum is: 9
+The sum is: 1710743
+The average is: 17107

@@ -1,0 +1,13 @@
+Collin Franklin
+Computer Science I - Mika Morgan
+Lab 3 - Keyboard Arithmetic
+02-10-22
+Outputting equations into an output file.
+
++------------------------------------------+
+Number 1 + Number 2 is 10
+Number 1 - Number 2 is 0
+Number 1 * Number 2 is 25
+Number 1 / Number 2 is 1
+The remainder of Number 1 / Number 2 is 0
++------------------------------------------+

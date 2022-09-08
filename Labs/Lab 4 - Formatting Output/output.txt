@@ -1,0 +1,25 @@
+Collin Franklin
+Computer Science I - Mika Morgan
+Lab 4 - Formatting Output
+02-19-22
+Formatting Code into a text file
+
+
+            A           B          C
+*************************************
+
+X1          5           15         25
+X10        50          150        250
+X100      500         1500       2500
+
+TotalColl = 26572.89087; Sales = 25068.7993; CountyTax = 501.76;
+StateTax = 1002.75212; TotalTax = 1504.1289
+
+MONTH: March 2018
+---------------------------------
+
+Total Collected      $  26572.89
+Sales                $  25068.8
+County Tax           $  501.76
+State Tax            $  1002.75
+Total Tax            $  1504.13
