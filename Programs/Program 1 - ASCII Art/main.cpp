@@ -1,7 +1,7 @@
 // Collin Franklin
 // Computer Science I - Mika Morgan
 // Program 1 - ASCII Art
-// X1-23-22
+// 01-23-22
 // Funny Little Guy
 
 

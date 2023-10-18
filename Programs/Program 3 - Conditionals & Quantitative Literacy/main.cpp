@@ -11,15 +11,19 @@ using namespace std;
 
 int main()
 {
+  //initialize variables
   float height;
   int weight;
   float BMI;
 
-  cout << "Please enter your height (in inches) then your weight in imperical units.\n";
+  cout << "Please enter your height (inches)" << endl;
   cin >> height;
+  cout << "Now your weight (imperical units)." << endl;
   cin >> weight;
 
+  //BMI calculation
   BMI = (weight * 703) / pow(height,2);
+
   cout << BMI << endl;
 
   if(BMI < 18.5)

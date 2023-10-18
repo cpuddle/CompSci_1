@@ -22,7 +22,7 @@ void printArray(struct account arr[5]);
 string name2;
 double amount;
 char tc;
-int index;
+int item;
 
 // make struct account
 struct account
@@ -67,7 +67,7 @@ int main()
       {
         if (name2 == arr[i].name)
         {
-          index = i;
+          item = i;
         }
 
       }
@@ -114,14 +114,14 @@ void calculation (struct account arr[5], string name2, char tc, double amount)
 
 void deposit(struct account arr[5], double amount) //adding
 {
-   arr[index].account_balance += amount;
+   arr[item].account_balance += amount;
   return;
 }
 
 
 void withdrawal(struct account arr[5], double amount) //subtracting
 {
-  arr[index].account_balance -= amount;
+  arr[item].account_balance -= amount;
   overdraft (arr);
   return;
 }
@@ -129,8 +129,8 @@ void withdrawal(struct account arr[5], double amount) //subtracting
 
 void overdraft(struct account arr[5]) //subtracts 30 if balance < 0
 {
-  if (arr[index].account_balance < 0)
-    arr[index].account_balance -= 30;
+  if (arr[item].account_balance < 0)
+    arr[item].account_balance -= 30;
   return;
 }
 

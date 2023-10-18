@@ -88,6 +88,7 @@ int max_number (int num_grade)
     }
     return largest;
   }
+  return 0;
 }
 
 int min_number (int num_grade)
@@ -100,4 +101,5 @@ int min_number (int num_grade)
     }
     return smallest;
   }
+  return 0;
 }
